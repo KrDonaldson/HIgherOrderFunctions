@@ -17,19 +17,22 @@ const Animals = [
 ]
 Copy this array into a new file called arrayFilter.js in your challenges/week2/functional-array
 Note this is your file path: challenges/<current week#>/functional-array
+
 Problem 1 - Array Filtering
 Part 1 - For Loop Filter
 Create a Function that takes an array for a parameter and returns an array of just the dogs from the animals array.
 Constraints
-Must use a for loop
-For loop must be in the function
-Function must return an array.
-Store the output of the function in a variable called dogs
-Console.log the variable dogs
+     Must use a for loop
+     For loop must be in the function
+     Function must return an array.
+     Store the output of the function in a variable called dogs
+     Console.log the variable dogs
+
 Remember to commit your work with git when you hit a milestone in your work.
 git add .                                      Note* -  will add your work to staging
 git status                                    Note* - confirm you have the desired files added in green
 git commit -m “  message about commit ”
+
 Part 2 - Array Filter Method
 In the same file, arrayFilter.js create a new function that uses the array filter method. You should have the same result as in part 1.
  Tips: Google search javascript array filter or see Mozilla Array Filter
@@ -40,29 +43,33 @@ Must console.log the result and have the same output as step 1
 
 Problem 1 - Review
 Note * If in class wait. We will review as a group.
- Video Review Functional Programming #1 Filter
-Problem 2 - Array Map 
- Part 1 - Map with For Loop
-First create a new file arrayMap.js and copy the above animals array into the file.
-Now create a function that takes an array for a parameter and returns an array of strings, the names from the animals array.
- Constraints
-Must use a for loop.
-For loop must be in a function.
-Function must return an array of strings.
-Store the output of the function in a variable called animalNames
-Console.log the variable animalNames
 
- Part 2 - Array Map Method
-In the same file, arrayMap.js create a new function that takes in array as a parameter and  returns an array of names, however instead of looping you must use array map method.
-Tips: Google search javascript array map or see  Mozilla Array Map
-Constraints
-Must use map method inside function
-Function must return an array of names
-Console.log the result and have the same output as step 1
+ Video Review Functional Programming #1 Filter
+ 
+Problem 2 - Array Map 
+     Part 1 - Map with For Loop
+     First create a new file arrayMap.js and copy the above animals array into the file.
+     Now create a function that takes an array for a parameter and returns an array of strings, the names from the animals array.
+     Constraints
+     Must use a for loop.
+     For loop must be in a function.
+     Function must return an array of strings.
+     Store the output of the function in a variable called animalNames
+     Console.log the variable animalNames
+
+     Part 2 - Array Map Method
+     In the same file, arrayMap.js create a new function that takes in array as a parameter and  returns an array of names, however instead of looping you must use array map method.
+     Tips: Google search javascript array map or see  Mozilla Array Map
+     Constraints
+     Must use map method inside function
+     Function must return an array of names
+     Console.log the result and have the same output as step 1
 
 Problem 2 - Review
  Note * If in class wait. We will review as a group.
  Video:Functional Programming #2 Map
+
+
 Problem 3 - Array Reduce
  Part 1 - For Loop Reduce 
 Create a new file called reduceArray.js in your Challenges/week2/functional-array
